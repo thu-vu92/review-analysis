@@ -1,0 +1,14 @@
+# Ignore DS_Store file
+.DS_Store
+
+# Ignore data folder
+data/
+
+# Ignore csv files
+*.csv
+
+# Ignore virtual env folder
+venv/
+
+# Ignore environment variable file
+.env
