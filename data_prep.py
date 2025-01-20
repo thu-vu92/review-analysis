@@ -1,11 +1,11 @@
-import re
+import emoji
 
 def clean_review_text(review):
 
     # Convert text to lowercase
     review = review.lower()
 
-    # Remove digits from text
-    review = re.sub(r'\d+', '', review)
+    # Replace emojis with text
+    review = emoji.demojize(review)
 
     return review
