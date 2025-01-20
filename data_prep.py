@@ -5,7 +5,7 @@ def clean_review_text(review):
     # Convert text to lowercase
     review = review.lower()
 
-    # Replace emojis with text using emoji module
-    reviews = emoji.demojize(review)
+    # Replace emojis with text
+    review_text = emoji.demojize(review)
 
-    return reviews
+    return review_text
