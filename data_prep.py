@@ -6,6 +6,6 @@ def clean_review_text(review):
     review = review.lower()
 
     # Replace emojis with text
-    review = emoji.demojize(review)
+    review_text = emoji.demojize(review)
 
-    return review
+    return review_text
